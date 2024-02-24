@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#9EB4C6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toolback"
+        app:title="Square Foot"
+        app:titleTextColor="@color/black"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:orientation="vertical">
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <androidx.cardview.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/white"
+               android:layout_margin="10dp"
+               app:cardCornerRadius="10dp"
+               app:cardElevation="8dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:background="@color/white"
+                   android:gravity="center"
+                   android:orientation="vertical"
+                   android:padding="10dp">
+
+                   <EditText
+                       android:id="@+id/editTextLength"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:hint="Length (ft)"
+                       android:inputType="numberDecimal"
+                       android:textColor="@color/black" />
+
+                   <EditText
+                       android:id="@+id/editTextWidth"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:hint="Width (ft)"
+                       android:inputType="numberDecimal"
+                       android:textColor="@color/black" />
+
+                   <EditText
+                       android:id="@+id/editTextUnitPrice"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:hint="Unit Price (₹)"
+                       android:inputType="numberDecimal"
+                       android:textColor="@color/black" />
+
+                   <Button
+                       android:id="@+id/buttonCalculate"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:backgroundTint="#2196F3"
+                       android:text="Calculate" />
+
+                   <Button
+                       android:id="@+id/buttonClear"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:backgroundTint="#2196F3"
+                       android:text="Clear" />
+
+                   <TextView
+                       android:id="@+id/textViewResult"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:paddingTop="16dp"
+                       android:text="@string/total_1"
+                       android:textColor="@color/black"
+                       android:textSize="26dp"
+                       android:textStyle="bold" />
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:gravity="center"
+                       android:orientation="horizontal">
+
+                       <Button
+                           android:id="@+id/saveDoc"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_margin="10dp"
+                           android:backgroundTint="#2196F3"
+                           android:text="@string/save"
+                           android:drawableRight="@drawable/baseline_save_alt_24"/>
+                   </LinearLayout>
+                   <Button
+                       android:id="@+id/buttonViewSavedData"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:backgroundTint="#2196F3"
+                       android:text="View Saved Data" />
+               </LinearLayout>
+           </androidx.cardview.widget.CardView>
+       </ScrollView>
+    </LinearLayout>
+</LinearLayout>

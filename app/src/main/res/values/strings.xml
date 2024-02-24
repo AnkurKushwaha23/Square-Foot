@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SquareFoot</string>
+    <string name="date">Date :</string>
+    <string name="length">Length (ft):</string>
+    <string name="width">Width (ft):</string>
+    <string name="unit_price">Unit Price ₹:</string>
+    <string name="unit_price1">Price Per Unit ₹:</string>
+    <string name="total">Total ₹:</string>
+    <string name="delete">Delete</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact">Contact Us</string>
+    <string name="mail_us">Mail Us</string>
+    <string name="follow_us_on">Follow Us On</string>
+    <string name="created_by_ankur_kushwaha">Created By <b>ANKUR KUSHWAHA</b></string>
+    <string name="about_the_app">About the App</string>
+    <string name="empty">Empty</string>
+    <string name="open_the_app_it_displays_the_mainactivity_for_calculations"><b>1.</b>Open the app; it displays the MainActivity for calculations.</string>
+    <string name="input_the_length_width_and_price_per_unit_in_home_click_on_the_calculate_button_to_view_the_total_cost"><b>2.</b>Input the length, width, and price per unit in Home. Click on the calculate button to view the total cost.</string>
+    <string name="click_on_the_view_saved_data_button_in_home_it_opens_the_saved_data_containing_a_list_of_saved_projects"><b>3.</b>Click on the View Saved Data button in Home. It opens the Saved Data containing a list of saved projects.</string>
+    <string name="in_saveddata_click_on_any_item_to_view_detailed_project_information_opened_details_allows_users_to_delete_the_specific_entry_if_needed"><b>4.</b>In SavedData, click on any item to view detailed project information. Opened Details allows users to delete the specific entry if needed.</string>
+    <string name="save">Save</string>
+    <string name="total_1">Total :</string>
+</resources>
