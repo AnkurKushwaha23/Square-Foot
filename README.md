@@ -45,10 +45,16 @@ RecyclerView for displaying the list of saved projects.
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
 #ScreenShorts
+
 ![Screenshot_20240222-074456](https://github.com/AnkurKushwaha23/Square-Foot/assets/157258878/28ac8a51-573c-4c4d-8a4c-1f641b3e0121)
+
 ![Screenshot_20240222-074507](https://github.com/AnkurKushwaha23/Square-Foot/assets/157258878/2801e2ad-7c6d-4045-b1d5-e2b0a000db01)
+
 ![Screenshot_20240222-074529](https://github.com/AnkurKushwaha23/Square-Foot/assets/157258878/2012a4df-888c-4289-bcb6-f25b16da0368)
+
 ![Screenshot_20240222-074549](https://github.com/AnkurKushwaha23/Square-Foot/assets/157258878/fc88dbe4-cc17-4e8b-be30-9f6faa686684)
+
 ![Screenshot_20240222-074601](https://github.com/AnkurKushwaha23/Square-Foot/assets/157258878/b09f251a-dcf7-443b-9e32-1f4c236c10fd)
+
 ![Screenshot_20240222-074706](https://github.com/AnkurKushwaha23/Square-Foot/assets/157258878/5d31025e-5578-4d2c-ac7f-b433d7a226f3)
 
