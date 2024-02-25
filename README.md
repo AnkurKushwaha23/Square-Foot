@@ -1,9 +1,11 @@
 #SquareFoot - Construction and Carpentry Calculator App
 
 #Overview
+
 SquareFoot is an Android application specifically designed in the construction and carpentry fields. This app simplifies the calculation process for project costs, allowing users to input length, width, and price per unit. The app features a MainActivity for calculations, a SavedDataActivity for managing and viewing saved projects, and a DetailActivity for exploring detailed project information.
 
 #Features
+
 Input Form:-
 Users can input the length, width, and price per unit in feet.
 The app calculates the total cost based on the provided inputs.
@@ -25,6 +27,7 @@ The DetailActivity includes the date, length, width, price per unit, and total c
 Provides the option to delete specific entries.
 
 #Usage
+
 Launch the SquareFoot App:-
 Open the app; it displays the MainActivity for calculations.
 Calculate Project Cost:-
@@ -38,10 +41,12 @@ In SavedDataActivity, click on any item to view detailed project information.
 Opened DetailActivity allows users to delete the specific entry if needed.
 
 #Dependencies
+
 SQLite Database for local storage.
 RecyclerView for displaying the list of saved projects.
 
 #Contributing
+
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
 
 #ScreenShorts
